@@ -48,7 +48,8 @@ let rooms =[
 
 //common api endpoint
 app.get('/',(request,response) =>{
-     response.send(`<h4>Hall Booking API</h4>`)
+     response.send(`<h4>Hall Booking API</h4> <br>
+                    `)
  });
 
 //set the endpoints to create a room 
