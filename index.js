@@ -48,10 +48,10 @@ let rooms =[
 
 //common api endpoint
 app.get('/',(request,response) =>{
-     response.send(`<h2>Hall Booking API</h2> <br><br>
-                    <h4>/create-room</h4><br>
-                    <h4>/book-room</h4><br>
-                    <h4>/booked-rooms</h4><br>
+     response.send(`<h2>Welcome to Hall Booking API</h2>
+                    <h4>/create-room</h4> 
+                    <h4>/book-room</h4>
+                    <h4>/booked-rooms</h4>
                     <h4>/list-customers</h4>`)
  });
 
